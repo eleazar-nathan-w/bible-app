@@ -1,0 +1,39 @@
+@import './fonts.css';
+@import './tailwind.css';
+@import './theme.css';
+
+/* Custom styles for Bible app */
+mark {
+  padding: 0.125rem 0.25rem;
+  border-radius: 0.25rem;
+}
+
+/* Smooth transitions for theme switching */
+* {
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+/* Better touch targets for mobile */
+@media (max-width: 768px) {
+  button, a {
+    min-height: 44px;
+    min-width: 44px;
+  }
+}
+
+/* Prevent text selection on UI elements */
+.select-none {
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Improve readability for long-form text */
+.leading-relaxed {
+  line-height: 1.75;
+}
+
+/* Focus visible for accessibility */
+:focus-visible {
+  outline: 2px solid hsl(var(--ring));
+  outline-offset: 2px;
+}
