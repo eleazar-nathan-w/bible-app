@@ -147,3 +147,8 @@ Built following best practices from:
 - Accessibility guidelines (WCAG, ARIA)
 - Mobile UX patterns
 - Progressive Web App standards
+
+
+## Changelog
+
+- Hi im changing this file woohooo
