@@ -49,7 +49,7 @@ export function Home() {
         {/* Header */}
         <div className="space-y-2">
           <h1 className="text-3xl md:text-4xl font-bold">
-            {userName.trim() ? `Welcome back, ${userName.trim()}` : 'Welcome'}
+            {userName.trim() ? `Hello ${userName.trim()}` : 'Welcome'}
           </h1>
           <p className="text-muted-foreground">
             {new Date().toLocaleDateString('en-US', { 
