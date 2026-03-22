@@ -132,7 +132,7 @@ export function VerseImageCreator({ open, onOpenChange, verseText, reference }: 
           </div>
 
           <p className="text-xs text-muted-foreground text-center">
-            Note: In a full implementation, this would generate a downloadable image
+            Note: In a full implementation, this would generate a downloadable image meowwwww
           </p>
         </div>
       </DialogContent>
